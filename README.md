@@ -1,4 +1,6 @@
-![Photo Stream Social Preview](https://repository-images.githubusercontent.com/244708193/8710f480-6010-11ea-9fd6-41bdaea7ab02)
+This fork was created as part of a collection-project for pictures for our dear friend Boston Eddie.
+
+_(After sinking a putt) Soft hands dude. Good man!_ - "Boston Eddie" Edward Collins
 
 # Photo Stream
 
