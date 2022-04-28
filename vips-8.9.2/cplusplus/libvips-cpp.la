@@ -17,7 +17,7 @@ old_library='libvips-cpp.a'
 inherited_linker_flags=' -pthread -fopenmp'
 
 # Libraries that this one depends upon.
-dependency_libs=' /home/runner/work/photography/photography/vips-8.9.2/libvips/libvips.la -L/build/libjpeg-turbo-6HlDLQ/libjpeg-turbo-2.0.3/obj-x86_64-linux-gnu/lib/x86_64-linux-gnu /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libMagickCore-6.Q16.la -lpng16 -lz -ltiff -ljpeg -lgthread-2.0 -lgmodule-2.0 -lexpat -llcms2 -lrsvg-2 -lgio-2.0 -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lcairo -lIlmImf -lImath -lHalf -lIex -lIexMath -lIlmThread -lpthread -lexif'
+dependency_libs=' /home/runner/work/photo-wall/photo-wall/vips-8.9.2/libvips/libvips.la -L/build/libjpeg-turbo-6HlDLQ/libjpeg-turbo-2.0.3/obj-x86_64-linux-gnu/lib/x86_64-linux-gnu /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libMagickCore-6.Q16.la -lpng16 -lz -ltiff -ljpeg -lgthread-2.0 -lgmodule-2.0 -lexpat -llcms2 -lrsvg-2 -lgio-2.0 -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lcairo -lIlmImf -lImath -lHalf -lIex -lIexMath -lIlmThread -lpthread -lexif'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -39,4 +39,4 @@ dlpreopen=''
 
 # Directory that this library needs to be installed in:
 libdir='/usr/lib'
-relink_command="(cd /home/runner/work/photography/photography/vips-8.9.2/cplusplus; /bin/bash \"/home/runner/work/photography/photography/vips-8.9.2/libtool\"  --tag CXX --mode=relink g++ -g -O2 -no-undefined -version-info 54:2:12 -o libvips-cpp.la -rpath /usr/lib VImage.lo VInterpolate.lo VConnection.lo VError.lo ../libvips/libvips.la -lz -lMagickCore-6.Q16 -lpng16 -lz -ltiff -L/build/libjpeg-turbo-6HlDLQ/libjpeg-turbo-2.0.3/obj-x86_64-linux-gnu/lib/x86_64-linux-gnu -ljpeg -lgthread-2.0 -pthread -lglib-2.0 -Wl,--export-dynamic -lgmodule-2.0 -pthread -lgobject-2.0 -lglib-2.0 -lexpat -llcms2 -lrsvg-2 -lm -lgio-2.0 -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lcairo -lIlmImf -lImath -lHalf -lIex -lIexMath -lIlmThread -lpthread -lexif -lm @inst_prefix_dir@)"
+relink_command="(cd /home/runner/work/photo-wall/photo-wall/vips-8.9.2/cplusplus; /bin/bash \"/home/runner/work/photo-wall/photo-wall/vips-8.9.2/libtool\"  --tag CXX --mode=relink g++ -g -O2 -no-undefined -version-info 54:2:12 -o libvips-cpp.la -rpath /usr/lib VImage.lo VInterpolate.lo VConnection.lo VError.lo ../libvips/libvips.la -lz -lMagickCore-6.Q16 -lpng16 -lz -ltiff -L/build/libjpeg-turbo-6HlDLQ/libjpeg-turbo-2.0.3/obj-x86_64-linux-gnu/lib/x86_64-linux-gnu -ljpeg -lgthread-2.0 -pthread -lglib-2.0 -Wl,--export-dynamic -lgmodule-2.0 -pthread -lgobject-2.0 -lglib-2.0 -lexpat -llcms2 -lrsvg-2 -lm -lgio-2.0 -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lcairo -lIlmImf -lImath -lHalf -lIex -lIexMath -lIlmThread -lpthread -lexif -lm @inst_prefix_dir@)"

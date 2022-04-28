@@ -1,4 +1,4 @@
-top_srcdir=/home/runner/work/photography/photography/vips-8.9.2
+top_srcdir=/home/runner/work/photo-wall/photo-wall/vips-8.9.2
 PYTHON=@PYTHON@
 # we need a different tmp for each script since make can run tests in parallel
 tmp=$top_srcdir/test/tmp-$$
