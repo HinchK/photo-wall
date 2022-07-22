@@ -1,14 +1,8 @@
-# photo-wall
+![Photo Stream Social Preview](https://repository-images.githubusercontent.com/244708193/8710f480-6010-11ea-9fd6-41bdaea7ab02)
 
-A quick and clean gallery that has been cooked out of a twice-forked photato  (https://github.com/maxvoltar/photo-stream -> https://github.com/Julian/photography). 
+# Photo Stream
 
-The friends of Eddie Collins shared their pictures via dropboxm, email and SMS.  Automations on these endpoints converted .PNG to .JPG, which were uploaded to this reposit    `original/` directory
-
-https://bostoneddie.netlify.app/
-
-"My friends make me feel like I am the luckiest man on the planet!"
-"Boston Eddie" Edward Collins
-
+Photo stream is a simpler home for your photos by [@maxvoltar](https://twitter.com/maxvoltar) and [friends](#credits). Easy to use, self hosted, no tracking, just photos.
 
 - [Examples](#examples)
 - [Features](#features)
@@ -141,8 +135,3 @@ Before publishing your website, Jekyll will resize your photos into 3 different 
 ## Known issues
 
 - You might see a `VIPS-WARNING` message while running `jekyll serve`. This is [a bug in libvips](https://github.com/libvips/libvips/issues/394#issuecomment-359780578) that's being tracked, but it's harmless.
-
-
-
-We were the lucky ones Eddie. RIP 
-
